@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color.red.ignoresSafeArea(.all)
+            Color.blue.ignoresSafeArea(.all)
             VStack(alignment: .trailing) {
                 Image(systemName: "globe")
                     .imageScale(.large)
